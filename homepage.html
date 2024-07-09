@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="homepage.js"></script>
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <!-- <div class="form-container sign-up">
+            <form method="post" action="">
+                <h1>Logged In</h1>
+
+                <button id="logout">Log Out</button>
+            </form>
+        </div> -->
+        <div class="form-container sign-in">
+            <form method="post" action="">
+                <h1>Logged In</h1>
+
+                <button id="logout">Log Out</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back, <br> <span style="font-size: 2rem;" id="loggedUserName"></span></h1>
+                    <p>Welcome to the site</p>
+                    <button class="hidden" id="login">Swipe</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, <span style="font-size: 2rem;" id="loggedUserfName"></span></h1>
+                    <p>Welcome to the site</p>
+                    <button class="hidden" id="register">Swipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
