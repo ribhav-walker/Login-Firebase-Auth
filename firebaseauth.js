@@ -4,13 +4,7 @@ import { createUserWithEmailAndPassword, getAuth, sendPasswordResetEmail, signIn
 import { doc, getFirestore, setDoc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyA7-4EcRT-HqzN_ctyEa3CVuqIfLGoDw_4",
-    authDomain: "event-12e61.firebaseapp.com",
-    projectId: "event-12e61",
-    storageBucket: "event-12e61.appspot.com",
-    messagingSenderId: "1038833741364",
-    appId: "1:1038833741364:web:13ab1399195283f1406461",
-    measurementId: "G-BDQ3MHWJZ8"
+    // Your Api configuration here
 };
 
 // Initialize Firebase
