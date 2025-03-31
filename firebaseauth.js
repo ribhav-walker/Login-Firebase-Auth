@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword, getAuth, sendPasswordResetEmail, signIn
 import { doc, getFirestore, setDoc } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    // Your Api configuration here
+    // Your Api configuration here  
 };
 
 // Initialize Firebase
